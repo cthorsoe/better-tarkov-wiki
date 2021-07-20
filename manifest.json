@@ -1,0 +1,20 @@
+{
+    "name":"Better Tarkov Wiki",
+    "version":"1.0",
+    "manifest_version": 2,
+    "author":"Christian Thorsø",
+    "description": "An extension to modify the tarkov wiki to generally improve the site",
+    "icons": { 
+        "16": "images/eft16.png",
+        "32": "images/eft48.png",
+        "48": "images/eft48.png",
+       "128": "images/eft128.png" 
+    },
+    "content_scripts":[
+        {
+            "matches":["https://escapefromtarkov.fandom.com/wiki/*"],
+            "js":["custom.js"],
+            "css": ["custom.css"]
+        }
+    ]
+}

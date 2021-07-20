@@ -1,0 +1,4 @@
+.resizable-container{
+    max-width: calc(100% - 65px) !important;
+    width: calc(100% - 65px) !important;
+}
